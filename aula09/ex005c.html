@@ -17,13 +17,16 @@
     <h1>Inciando estudos com DOM </h1>
     <p>Aqui vai o resultado</p>
     <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript.</p>
-    <div id="msg">Clique em mim </div>
+    <div name="msg">Clique em mim </div>
     <script>
         var corpo = document.body
         var p1=document.getElementsByClassName('p')[1]
-        var d = document.getElementById('msg')
+
+        /*var d = document.getElementById('msg')
         d.style.background='green'
-        d.innerText='Estou aguardando...'
+        d.innerText='Estou aguardando...'*/
+         var d= document.getElementsByClassName('msg')[0]
+         d.innerText='óla!'
        
      </script>
 </body>
